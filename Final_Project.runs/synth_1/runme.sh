@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log d_flipflop.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source d_flipflop.tcl
+EAStep vivado -log Vending_FSM.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Vending_FSM.tcl

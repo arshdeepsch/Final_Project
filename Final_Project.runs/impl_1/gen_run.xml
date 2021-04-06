@@ -1,66 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xa7a100tcsg324-1I" LaunchTime="1617332929">
-  <File Type="ROUTE-PWR" Name="d_flipflop_power_routed.rpt"/>
-  <File Type="PA-TCL" Name="d_flipflop.tcl"/>
-  <File Type="ROUTE-PWR-SUM" Name="d_flipflop_power_summary_routed.pb"/>
-  <File Type="REPORTS-TCL" Name="d_flipflop_reports.tcl"/>
-  <File Type="BITSTR-MSK" Name="d_flipflop.msk"/>
-  <File Type="ROUTE-CLK" Name="d_flipflop_clock_utilization_routed.rpt"/>
-  <File Type="RDI-RDI" Name="d_flipflop.vdi"/>
-  <File Type="BG-BIT" Name="d_flipflop.bit"/>
-  <File Type="BG-DRC" Name="d_flipflop.drc"/>
-  <File Type="BG-BGN" Name="d_flipflop.bgn"/>
-  <File Type="BG-BIN" Name="d_flipflop.bin"/>
-  <File Type="BITSTR-RBT" Name="d_flipflop.rbt"/>
-  <File Type="BITSTR-NKY" Name="d_flipflop.nky"/>
-  <File Type="BITSTR-BMM" Name="d_flipflop_bd.bmm"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="d_flipflop_methodology_drc_routed.rpt"/>
-  <File Type="BITSTR-MMI" Name="d_flipflop.mmi"/>
-  <File Type="BITSTR-SYSDEF" Name="d_flipflop.sysdef"/>
+<GenRun Id="impl_1" LaunchPart="xa7a100tcsg324-1I" LaunchTime="1617749967">
+  <File Type="BITSTR-BMM" Name="Vending_FSM_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Vending_FSM_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Vending_FSM_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="Vending_FSM_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Vending_FSM.tcl"/>
+  <File Type="OPT-TIMING" Name="Vending_FSM_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="Vending_FSM_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="Vending_FSM_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Vending_FSM_reports.tcl"/>
+  <File Type="OPT-DRC" Name="Vending_FSM_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Vending_FSM.hwdef"/>
+  <File Type="PWROPT-DCP" Name="Vending_FSM_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Vending_FSM_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Vending_FSM_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Vending_FSM_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Vending_FSM_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Vending_FSM_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Vending_FSM_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Vending_FSM_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Vending_FSM_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Vending_FSM_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Vending_FSM_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="Vending_FSM_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Vending_FSM_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="Vending_FSM.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Vending_FSM_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Vending_FSM_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Vending_FSM_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="Vending_FSM.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="Vending_FSM_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Vending_FSM_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Vending_FSM_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Vending_FSM_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Vending_FSM_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Vending_FSM_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Vending_FSM_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="Vending_FSM.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Vending_FSM_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Vending_FSM_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Vending_FSM_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Vending_FSM_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Vending_FSM_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Vending_FSM_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Vending_FSM_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Vending_FSM_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Vending_FSM_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Vending_FSM_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Vending_FSM_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Vending_FSM_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Vending_FSM_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Vending_FSM_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Vending_FSM_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Vending_FSM_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Vending_FSM_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Vending_FSM_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Vending_FSM_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Vending_FSM_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Vending_FSM_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="Vending_FSM.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Vending_FSM_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="Vending_FSM.rbt"/>
+  <File Type="BITSTR-NKY" Name="Vending_FSM.nky"/>
+  <File Type="PDI-FILE" Name="Vending_FSM.pdi"/>
+  <File Type="RCFI_FILE" Name="Vending_FSM.rcfi"/>
+  <File Type="CFI_FILE" Name="Vending_FSM.cfi"/>
+  <File Type="RNPI_FILE" Name="Vending_FSM.rnpi"/>
+  <File Type="NPI_FILE" Name="Vending_FSM.npi"/>
+  <File Type="RBD_FILE" Name="Vending_FSM.rbd"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="d_flipflop.ltx"/>
+  <File Type="BITSTR-LTX" Name="Vending_FSM.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Vending_FSM.sysdef"/>
+  <File Type="BG-BGN" Name="Vending_FSM.bgn"/>
+  <File Type="BG-DRC" Name="Vending_FSM.drc"/>
+  <File Type="RDI-RDI" Name="Vending_FSM.vdi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="OPT-DRC" Name="d_flipflop_drc_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="d_flipflop.hwdef"/>
-  <File Type="PLACE-IO" Name="d_flipflop_io_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="d_flipflop_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="d_flipflop_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="d_flipflop_control_sets_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="d_flipflop_incremental_reuse_pre_placed.rpt"/>
-  <File Type="ROUTE-DRC" Name="d_flipflop_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="d_flipflop_drc_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="d_flipflop_power_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="d_flipflop_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="d_flipflop_route_status.pb"/>
-  <File Type="ROUTE-DCP" Name="d_flipflop_routed.dcp"/>
-  <File Type="ROUTE-ERROR-DCP" Name="d_flipflop_routed_error.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="d_flipflop_routed_bb.dcp"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="d_flipflop_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="d_flipflop_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="d_flipflop_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-BUS-SKEW" Name="d_flipflop_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="d_flipflop_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="d_flipflop_bus_skew_routed.rpx"/>
-  <File Type="OPT-DCP" Name="d_flipflop_opt.dcp"/>
-  <File Type="PLACE-DCP" Name="d_flipflop_placed.dcp"/>
-  <File Type="PWROPT-DCP" Name="d_flipflop_pwropt.dcp"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="d_flipflop_postplace_pwropt.dcp"/>
-  <File Type="PHYSOPT-DCP" Name="d_flipflop_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="d_flipflop_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="d_flipflop_postroute_physopt_bb.dcp"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="d_flipflop_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="d_flipflop_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="d_flipflop_methodology_drc_routed.rpx"/>
-  <File Type="PDI-FILE" Name="d_flipflop.pdi"/>
-  <File Type="RCFI_FILE" Name="d_flipflop.rcfi"/>
-  <File Type="CFI_FILE" Name="d_flipflop.cfi"/>
-  <File Type="RNPI_FILE" Name="d_flipflop.rnpi"/>
-  <File Type="NPI_FILE" Name="d_flipflop.npi"/>
-  <File Type="RBD_FILE" Name="d_flipflop.rbd"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Vending_FSM.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sseg_display.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/d_flipflop.v">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -74,9 +108,17 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/new/Vending.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="d_flipflop"/>
+      <Option Name="TopModule" Val="Vending_FSM"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
@@ -108,6 +150,5 @@
     <Step Id="route_design"/>
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
-    <Step Id="write_device_image"/>
   </Strategy>
 </GenRun>

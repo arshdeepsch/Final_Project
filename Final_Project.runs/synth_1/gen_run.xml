@@ -1,15 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xa7a100tcsg324-1I" LaunchTime="1617332929">
-  <File Type="PA-TCL" Name="d_flipflop.tcl"/>
-  <File Type="REPORTS-TCL" Name="d_flipflop_reports.tcl"/>
-  <File Type="RDS-RDS" Name="d_flipflop.vds"/>
-  <File Type="RDS-UTIL" Name="d_flipflop_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="d_flipflop_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="d_flipflop.dcp"/>
+<GenRun Id="synth_1" LaunchPart="xa7a100tcsg324-1I" LaunchTime="1617749967">
+  <File Type="PA-TCL" Name="Vending_FSM.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="Vending_FSM_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="Vending_FSM_reports.tcl"/>
+  <File Type="RDS-RDS" Name="Vending_FSM.vds"/>
+  <File Type="RDS-UTIL" Name="Vending_FSM_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Vending_FSM_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="Vending_FSM.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Vending_FSM_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="Vending_FSM_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Vending_FSM.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sseg_display.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/d_flipflop.v">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -23,9 +42,17 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/new/Vending.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="d_flipflop"/>
+      <Option Name="TopModule" Val="Vending_FSM"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">

@@ -23,9 +23,9 @@ eval( EAInclude(ISEJScriptLib) );
 
 
 // pre-commands:
-ISETouchFile( "write_bitstream", "begin" );
+ISETouchFile( "init_design", "begin" );
 ISEStep( "vivado",
-         "-log d_flipflop.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source d_flipflop.tcl -notrace" );
+         "-log Vending_FSM.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source Vending_FSM.tcl -notrace" );
 
 
 
