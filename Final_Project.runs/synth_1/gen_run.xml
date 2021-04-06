@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xa7a100tcsg324-1I" LaunchTime="1617749967">
-  <File Type="PA-TCL" Name="Vending_FSM.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="Vending_FSM_drc_synth.rpt"/>
-  <File Type="REPORTS-TCL" Name="Vending_FSM_reports.tcl"/>
-  <File Type="RDS-RDS" Name="Vending_FSM.vds"/>
-  <File Type="RDS-UTIL" Name="Vending_FSM_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="Vending_FSM_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="Vending_FSM.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="Vending_FSM_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="Vending_FSM_timing_summary_synth.pb"/>
+<GenRun Id="synth_1" LaunchPart="xa7a100tcsg324-1I" LaunchTime="1617752860">
+  <File Type="PA-TCL" Name="Vending.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="Vending_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="Vending_reports.tcl"/>
+  <File Type="RDS-RDS" Name="Vending.vds"/>
+  <File Type="RDS-UTIL" Name="Vending_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Vending_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="Vending.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Vending_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="Vending_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/Vending_FSM.v">
@@ -20,7 +20,13 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/sseg_display.v">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Vending.v">
+      <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -42,17 +48,9 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/Vending.v">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="Vending_FSM"/>
+      <Option Name="TopModule" Val="Vending"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
