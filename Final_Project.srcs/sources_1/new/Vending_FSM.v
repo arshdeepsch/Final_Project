@@ -34,8 +34,11 @@ C: if ({S_A,C_A,C_1,C_0} == 4'b1011) Y <= D;
 //E: if({S_A,C_A,C_1,C_0} == 4'b0110 | {S_A,C_A,C_1,C_0} == 4'b0101) Y<=A;
 //F: if ({S_A,C_A,C_1,C_0} == 4'b0111) Y <= A;
 D: if ({S_A,C_A,C_1,C_0} == 4'b0000) Y <= A;
+    else Y <= D;
 E: if({S_A,C_A,C_1,C_0} == 4'b0000) Y<=A;
+    else Y <= E;
 F: if ({S_A,C_A,C_1,C_0} == 4'b0000) Y <= A;
+    else Y <= F;
 default: Y <= 3'bxxx;
 endcase
 assign S_D = (Y == D);
