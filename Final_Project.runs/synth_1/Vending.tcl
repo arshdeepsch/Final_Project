@@ -88,7 +88,7 @@ OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib {
   C:/Users/Ronak/Final_Project/Final_Project.srcs/sources_1/new/Vending_FSM.v
-  C:/Users/Ronak/Final_Project/Final_Project.srcs/sources_1/new/sseg_display.v
+  C:/Users/Ronak/Final_Project/Final_Project.srcs/sources_1/new/disp_hex_mux.v
   C:/Users/Ronak/Final_Project/Final_Project.srcs/sources_1/new/Vending.v
 }
 OPTRACE "Adding files" END { }

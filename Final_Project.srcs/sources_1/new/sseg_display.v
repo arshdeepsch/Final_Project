@@ -1,15 +1,21 @@
 `timescale 1ns / 1ps
 
-module sseg_display(Clock,S_D,C_D,C_P,S_P,C_E,sseg);
+module sseg_display(Clock,S_D,C_D,C_P,S_P,C_E,sseg,an);
 input Clock,S_D,C_D,C_P,S_P,C_E;
 output reg[0:6] sseg;
-
+output reg [3:0]an;
 always @(posedge Clock)
 case ({S_D,C_D,C_P,S_P,C_E})	
 //0: leds = 7'b0000001;
 //1: leds = 7'b1001111;
-5'b00100: sseg = 7'b1001111;
-5'b00010: sseg = 7'b0010010;
+5'b00100: 
+begin
+sseg = 7'b1001111;
+end
+5'b00010: 
+begin
+sseg = 7'b0010010;
+end
 //2: leds = 7'b0010010;
 //3: leds = 7'b0000110;
 //4: leds = 7'b1001100;
