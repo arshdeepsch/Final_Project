@@ -1,17 +1,13 @@
 `timescale 1ns / 1ps
 
-
-module freq_divider(clock_in,clock_out
-    );
-input clock_in; 
-output reg clock_out; 
-reg[27:0] counter=28'd0;
-parameter DIVISOR = 28'd10000000;
-always @(posedge clock_in)
-begin
- counter <= counter + 28'd1;
- if(counter>=(DIVISOR-1))
-  counter <= 28'd0;
- clock_out <= (counter<DIVISOR/2)?1'b1:1'b0;
-end
+module freq_divider(input wire clk ,output wire out);
+// signal declaration
+reg [31:0] r_reg;
+wire [31:0] r_next;
+// Register
+always @ (posedge clk)
+r_reg <= r_next;
+//next state logic
+assign r_next = (r_reg == 100000000) ? 0 : r_reg +1; //output logic
+assign out = ( r_reg == 100000000) ? 1'b1 : 1'b0;
 endmodule
