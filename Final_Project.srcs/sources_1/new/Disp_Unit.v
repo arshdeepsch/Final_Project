@@ -1,4 +1,4 @@
-module disp_hex_mux
+module Disp_Unit
 (
 input wire clk, reset ,
 input wire [3:0] hex3 , hex2 , hex1 , hex0 , // hex digits

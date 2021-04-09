@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log Vending.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Vending.tcl
+EAStep vivado -log Vending_Machine.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Vending_Machine.tcl

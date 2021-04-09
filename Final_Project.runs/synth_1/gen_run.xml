@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xa7a100tcsg324-1I" LaunchTime="1617927859">
-  <File Type="PA-TCL" Name="Vending.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="Vending_drc_synth.rpt"/>
-  <File Type="REPORTS-TCL" Name="Vending_reports.tcl"/>
-  <File Type="RDS-RDS" Name="Vending.vds"/>
-  <File Type="RDS-UTIL" Name="Vending_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="Vending_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="Vending.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="Vending_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="Vending_timing_summary_synth.pb"/>
+<GenRun Id="synth_1" LaunchPart="xa7a100tcsg324-1I" LaunchTime="1617940514">
+  <File Type="PA-TCL" Name="Vending_Machine.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="Vending_Machine_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="Vending_Machine_reports.tcl"/>
+  <File Type="RDS-RDS" Name="Vending_Machine.vds"/>
+  <File Type="RDS-UTIL" Name="Vending_Machine_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Vending_Machine_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="Vending_Machine.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Vending_Machine_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="Vending_Machine_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PSRCDIR/sources_1/new/Vending_FSM.v">
+    <File Path="$PSRCDIR/sources_1/new/Cntr_Unit.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/disp_hex_mux.v">
+    <File Path="$PSRCDIR/sources_1/new/Disp_Unit.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/freq_divider.v">
+    <File Path="$PSRCDIR/sources_1/new/FSM_Vending_Unit.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/Vending.v">
+    <File Path="$PSRCDIR/sources_1/new/Vending_Machine.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -41,7 +41,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="Vending"/>
+      <Option Name="TopModule" Val="Vending_Machine"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
