@@ -8,7 +8,7 @@ freq_divider D1(clock_in,clock_out);
 
 initial begin 
 clock_in = 0;
-forever #10 clock_in = ~clock_in;
+forever  #10 clock_in = ~clock_in;
 end
 
 endmodule

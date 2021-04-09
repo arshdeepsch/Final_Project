@@ -3,7 +3,5 @@
 Nov 18 2020
 09:47:47
 C:/Users/Ronak/Final_Project/Final_Project.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
-C:/Users/Ronak/Final_Project/Final_Project.srcs/sim_1/new/d_flipflop_tb.v,1617332660,verilog,,,,d_flipflop_tb,,,,,,,,
-C:/Users/Ronak/Final_Project/Final_Project.srcs/sim_1/new/freq_divider_tb.v,1617736954,verilog,,,,freq_divider_tb,,,,,,,,
-C:/Users/Ronak/Final_Project/Final_Project.srcs/sources_1/new/d_flipflop.v,1617332162,verilog,,C:/Users/Ronak/Final_Project/Final_Project.srcs/sim_1/new/d_flipflop_tb.v,,d_flipflop,,,,,,,,
-C:/Users/Ronak/Final_Project/Final_Project.srcs/sources_1/new/freq_divider.v,1617736828,verilog,,C:/Users/Ronak/Final_Project/Final_Project.srcs/sim_1/new/freq_divider_tb.v,,freq_divider,,,,,,,,
+C:/Users/Ronak/Final_Project/Final_Project.srcs/sim_1/new/freq_divider_tb.v,1617922100,verilog,,,,freq_divider_tb,,,,,,,,
+C:/Users/Ronak/Final_Project/Final_Project.srcs/sources_1/new/freq_divider.v,1617922298,verilog,,C:/Users/Ronak/Final_Project/Final_Project.srcs/sim_1/new/freq_divider_tb.v,,freq_divider,,,,,,,,

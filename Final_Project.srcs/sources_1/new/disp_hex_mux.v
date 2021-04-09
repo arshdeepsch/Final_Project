@@ -37,19 +37,19 @@ end
 begin
 an = 4'b1101;
 hex_in = hex1;
-dp = dp_in[1] ;
+dp = dp_in[1];
 end
 2'b10:
 begin
 an = 4'b1011;
 hex_in = hex2;
-dp = dp_in[2] ;
+dp = dp_in[2];
 end
 default:
 begin
 an = 4'b0111;
 hex_in = hex3;
-dp = dp_in[3] ;
+dp = dp_in[3];
 end
 endcase
 // Hex to Seven-Segement LED Display
@@ -71,7 +71,7 @@ case (hex_in)
 //4'hc : sseg[6:0] = 7'b1000110 ;
 //4'hd : sseg[6:0] = 7'b0100001 ;
 //4'he : sseg[6:0] = 7'b0000110 ;
-default : sseg[6:0] = 7'b0001110 ; // 4'hf
+//default : sseg[6:0] = 7'b0001110; // 4'hf
 endcase
 sseg [7] = dp;
 end
