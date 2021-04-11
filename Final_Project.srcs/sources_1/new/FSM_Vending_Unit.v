@@ -15,23 +15,7 @@ always @(negedge Resetn, posedge Clock)
 if (Resetn == 0) Y <= A;
 else
 case (Y)
-A: if ({C_1} == 1'b1 | {C_0} == 1'b1) Y <= B;
-   else begin Y <= A; hex0 = 4'h0; hex1 = 4'h0; end
-B: if ({C_1,C_0} == 2'b11) Y <= C;
-   else if({S_A} == 1'b1) Y<= G;
-   else if({C_A} == 1'b1) Y<= E;
-   else begin Y <= B; hex1 = 4'h2; hex0 = 4'h5; end
-C: if ({S_A} == 1'b1) Y <= D;
-   else if ({C_A} == 1'b1) Y <= F;
-   else begin Y <= C; hex1 = 4'h5; hex0 = 4'h0; end
-D: if ({S_A,C_A,C_1,C_0} == 4'b0000) Y <= A;
-   else begin Y <= D; hex1 = 4'h0; hex0 = 4'h0; end
-E: if({S_A,C_A,C_1,C_0} == 4'b0000) Y<= A;
-   else begin Y <= E; hex1 = 4'h0; hex0 = 4'h0; end
-F: if({S_A,C_A,C_1,C_0} == 4'b0000) Y <= A;
-   else begin Y <= F; hex1 = 4'h0; hex0 = 4'h0; end
-G: if ({S_A,C_A,C_1,C_0} == 4'b0000) Y <= A;
-   else begin Y <= G; hex1 = 4'h0; hex0 = 4'h0; end
+
 default: Y <= 3'b000;
 endcase
 
