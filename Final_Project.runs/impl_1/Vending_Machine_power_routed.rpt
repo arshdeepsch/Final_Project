@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-| Date             : Thu Apr  8 23:56:42 2021
+| Date             : Mon Apr 12 19:59:47 2021
 | Host             : DESKTOP-0332GNA running 64-bit major release  (build 9200)
 | Command          : report_power -file Vending_Machine_power_routed.rpt -pb Vending_Machine_power_summary_routed.pb -rpx Vending_Machine_power_routed.rpx
 | Design           : Vending_Machine
@@ -52,13 +52,13 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     0.129 |      122 |       --- |             --- |
-|   LUT as Logic |     0.074 |       29 |     63400 |            0.05 |
+| Slice Logic    |     0.127 |      121 |       --- |             --- |
+|   LUT as Logic |     0.073 |       28 |     63400 |            0.04 |
 |   CARRY4       |     0.027 |       13 |     15850 |            0.08 |
 |   Register     |     0.021 |       62 |    126800 |            0.05 |
 |   BUFG         |     0.006 |        2 |        32 |            6.25 |
 |   Others       |     0.000 |        9 |       --- |             --- |
-| Signals        |     0.210 |      104 |       --- |             --- |
+| Signals        |     0.211 |      105 |       --- |             --- |
 | I/O            |     3.935 |       21 |       210 |           10.00 |
 | Static Power   |     0.118 |          |           |                 |
 | Total          |     4.392 |          |           |                 |
@@ -140,7 +140,7 @@ Table of Contents
 +-----------------+-----------+
 | Vending_Machine |     4.274 |
 |   C1            |     0.153 |
-|   F1            |     0.040 |
+|   F1            |     0.038 |
 |   M1            |     0.104 |
 +-----------------+-----------+
 
