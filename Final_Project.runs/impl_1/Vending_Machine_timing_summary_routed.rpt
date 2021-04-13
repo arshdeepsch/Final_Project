@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-| Date         : Tue Apr 13 17:10:57 2021
+| Date         : Tue Apr 13 18:16:20 2021
 | Host         : DESKTOP-0332GNA running 64-bit major release  (build 9200)
 | Command      : report_timing_summary -max_paths 10 -file Vending_Machine_timing_summary_routed.rpt -pb Vending_Machine_timing_summary_routed.pb -rpx Vending_Machine_timing_summary_routed.rpx -warn_on_violation
 | Design       : Vending_Machine
@@ -42,7 +42,7 @@ Table of Contents
 1. checking no_clock (594)
 2. checking constant_clock (0)
 3. checking pulse_width_clock (0)
-4. checking unconstrained_internal_endpoints (115)
+4. checking unconstrained_internal_endpoints (125)
 5. checking no_input_delay (5)
 6. checking no_output_delay (15)
 7. checking multiple_clock (0)
@@ -131,9 +131,9 @@ Table of Contents
  There are 0 register/latch pins which need pulse_width check
 
 
-4. checking unconstrained_internal_endpoints (115)
+4. checking unconstrained_internal_endpoints (125)
 --------------------------------------------------
- There are 115 pins that are not constrained for maximum delay. (HIGH)
+ There are 125 pins that are not constrained for maximum delay. (HIGH)
 
  There are 0 pins that are not constrained for maximum delay due to constant clock.
 

@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-| Date         : Tue Apr 13 17:10:33 2021
+| Date         : Tue Apr 13 18:15:54 2021
 | Host         : DESKTOP-0332GNA running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file Vending_Machine_control_sets_placed.rpt
 | Design       : Vending_Machine
@@ -60,10 +60,10 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | No           | No                    | No                     |              19 |            6 |
 | No           | No                    | Yes                    |               0 |            0 |
-| No           | Yes                   | No                     |              38 |           11 |
-| Yes          | No                    | No                     |              10 |            3 |
+| No           | Yes                   | No                     |              38 |           10 |
+| Yes          | No                    | No                     |               0 |            0 |
 | Yes          | No                    | Yes                    |               0 |            0 |
-| Yes          | Yes                   | No                     |               0 |            0 |
+| Yes          | Yes                   | No                     |              10 |            3 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
 
@@ -73,10 +73,10 @@ Table of Contents
 +------------------+--------------------+------------------+------------------+----------------+--------------+
 |   Clock Signal   |    Enable Signal   | Set/Reset Signal | Slice Load Count | Bel Load Count | Bels / Slice |
 +------------------+--------------------+------------------+------------------+----------------+--------------+
-|  n_0_49_BUFG     |                    | Resetn_IBUF      |                3 |              7 |         2.33 |
-|  n_0_49_BUFG     | F1/hex3[3]_i_1_n_1 |                  |                3 |             10 |         3.33 |
+|  n_0_48_BUFG     |                    | Resetn_IBUF      |                2 |              7 |         3.50 |
+|  n_0_48_BUFG     | F1/hex3[3]_i_1_n_1 | Resetn_IBUF      |                3 |             10 |         3.33 |
 |  Clock_IBUF_BUFG |                    |                  |                6 |             19 |         3.17 |
-|  Clock_IBUF_BUFG |                    | n_0_49_BUFG      |                8 |             31 |         3.88 |
+|  Clock_IBUF_BUFG |                    | n_0_48_BUFG      |                8 |             31 |         3.88 |
 +------------------+--------------------+------------------+------------------+----------------+--------------+
 
 

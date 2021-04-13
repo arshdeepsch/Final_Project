@@ -1,0 +1,4 @@
+Running: xsim.dir/FSM_Vending_Unit_tb_behav/xsimk.exe -simmode gui -wdb FSM_Vending_Unit_tb_behav.wdb -simrunnum 0 -socket 50228
+Design successfully loaded
+Design Loading Memory Usage: 5808 KB (Peak: 5808 KB)
+Design Loading CPU Usage: 15 ms

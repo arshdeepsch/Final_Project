@@ -10,7 +10,7 @@ reg [2:0] Y;
 parameter A=3'b000,B=3'b001,C=3'b010,D=3'b011,E=3'b100,F=3'b101,G=3'b111;
 
 always @(posedge Clock)
-if (Resetn == 1) Y <= A;
+if (Resetn) begin Y <= A; hex3 = 4'h0; hex2 = 4'h0;hex1 = 4'h0; hex0 = 4'h0; end
 else
 case (Y)
 A: if ({C_1} == 1'b1 | {C_0} == 1'b1) Y <= B;

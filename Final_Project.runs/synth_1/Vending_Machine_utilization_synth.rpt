@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-| Date         : Tue Apr 13 17:10:03 2021
+| Date         : Tue Apr 13 18:15:24 2021
 | Host         : DESKTOP-0332GNA running 64-bit major release  (build 9200)
 | Command      : report_utilization -file Vending_Machine_utilization_synth.rpt -pb Vending_Machine_utilization_synth.pb
 | Design       : Vending_Machine
@@ -147,11 +147,11 @@ Table of Contents
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
 | FDRE     |   66 |        Flop & Latch |
-| LUT6     |   19 |                 LUT |
+| LUT6     |   20 |                 LUT |
 | OBUF     |   15 |                  IO |
 | CARRY4   |   13 |          CarryLogic |
 | LUT4     |   11 |                 LUT |
-| LUT2     |    8 |                 LUT |
+| LUT2     |    6 |                 LUT |
 | IBUF     |    6 |                  IO |
 | LUT5     |    3 |                 LUT |
 | LUT3     |    3 |                 LUT |
