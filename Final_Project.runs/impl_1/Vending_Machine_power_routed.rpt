@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-| Date             : Mon Apr 12 19:59:47 2021
+| Date             : Mon Apr 12 21:15:33 2021
 | Host             : DESKTOP-0332GNA running 64-bit major release  (build 9200)
 | Command          : report_power -file Vending_Machine_power_routed.rpt -pb Vending_Machine_power_summary_routed.pb -rpx Vending_Machine_power_routed.rpx
 | Design           : Vending_Machine
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 4.392        |
+| Total On-Chip Power (W)  | 6.637        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 4.274        |
-| Device Static (W)        | 0.118        |
+| Dynamic (W)              | 6.498        |
+| Device Static (W)        | 0.139        |
 | Effective TJA (C/W)      | 4.6          |
-| Max Ambient (C)          | 80.0         |
-| Junction Temperature (C) | 45.0         |
+| Max Ambient (C)          | 69.7         |
+| Junction Temperature (C) | 55.3         |
 | Confidence Level         | Low          |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -52,16 +52,16 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     0.127 |      121 |       --- |             --- |
-|   LUT as Logic |     0.073 |       28 |     63400 |            0.04 |
+| Slice Logic    |     0.159 |      137 |       --- |             --- |
+|   LUT as Logic |     0.104 |       37 |     63400 |            0.06 |
 |   CARRY4       |     0.027 |       13 |     15850 |            0.08 |
-|   Register     |     0.021 |       62 |    126800 |            0.05 |
+|   Register     |     0.021 |       70 |    126800 |            0.06 |
 |   BUFG         |     0.006 |        2 |        32 |            6.25 |
-|   Others       |     0.000 |        9 |       --- |             --- |
-| Signals        |     0.211 |      105 |       --- |             --- |
-| I/O            |     3.935 |       21 |       210 |           10.00 |
-| Static Power   |     0.118 |          |           |                 |
-| Total          |     4.392 |          |           |                 |
+|   Others       |     0.000 |        8 |       --- |             --- |
+| Signals        |     0.271 |      124 |       --- |             --- |
+| I/O            |     6.068 |       21 |       210 |           10.00 |
+| Static Power   |     0.139 |          |           |                 |
+| Total          |     6.637 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -71,9 +71,9 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.391 |       0.359 |      0.032 |       NA    | Unspecified | NA         |
-| Vccaux    |       1.800 |     0.163 |       0.143 |      0.020 |       NA    | Unspecified | NA         |
-| Vcco33    |       3.300 |     1.112 |       1.108 |      0.004 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.499 |       0.450 |      0.049 |       NA    | Unspecified | NA         |
+| Vccaux    |       1.800 |     0.244 |       0.222 |      0.022 |       NA    | Unspecified | NA         |
+| Vcco33    |       3.300 |     1.716 |       1.712 |      0.004 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -138,10 +138,10 @@ Table of Contents
 +-----------------+-----------+
 | Name            | Power (W) |
 +-----------------+-----------+
-| Vending_Machine |     4.274 |
-|   C1            |     0.153 |
-|   F1            |     0.038 |
-|   M1            |     0.104 |
+| Vending_Machine |     6.498 |
+|   C1            |     0.155 |
+|   F1            |     0.104 |
+|   M1            |     0.129 |
 +-----------------+-----------+
 
 

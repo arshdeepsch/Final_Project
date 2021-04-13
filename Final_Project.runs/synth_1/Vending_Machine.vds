@@ -2,8 +2,8 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Mon Apr 12 19:58:12 2021
-# Process ID: 28992
+# Start of session at: Mon Apr 12 21:14:12 2021
+# Process ID: 31020
 # Current directory: C:/Users/Ronak/Final_Project/Final_Project.runs/synth_1
 # Command line: vivado.exe -log Vending_Machine.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Vending_Machine.tcl
 # Log file: C:/Users/Ronak/Final_Project/Final_Project.runs/synth_1/Vending_Machine.vds
@@ -17,9 +17,9 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xa7a100
 INFO: [Device 21-403] Loading part xa7a100tcsg324-1I
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 12552
+INFO: [Synth 8-7075] Helper process launched with PID 26684
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1017.465 ; gain = 0.000
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1015.105 ; gain = 0.000
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'Vending_Machine' [C:/Users/Ronak/Final_Project/Final_Project.srcs/sources_1/new/Vending_Machine.v:2]
 INFO: [Synth 8-6157] synthesizing module 'Cntr_Unit' [C:/Users/Ronak/Final_Project/Final_Project.srcs/sources_1/new/Cntr_Unit.v:3]
@@ -39,18 +39,18 @@ INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Rona
 INFO: [Synth 8-6155] done synthesizing module 'Disp_Unit' (3#1) [C:/Users/Ronak/Final_Project/Final_Project.srcs/sources_1/new/Disp_Unit.v:1]
 INFO: [Synth 8-6155] done synthesizing module 'Vending_Machine' (4#1) [C:/Users/Ronak/Final_Project/Final_Project.srcs/sources_1/new/Vending_Machine.v:2]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1017.465 ; gain = 0.000
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1015.105 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1017.465 ; gain = 0.000
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1015.105 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1017.465 ; gain = 0.000
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1015.105 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1017.465 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1015.105 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -61,26 +61,26 @@ INFO: [Project 1-236] Implementation specific constraints were found while readi
 Resolution: To avoid this warning, move constraints listed in [.Xil/Vending_Machine_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1043.672 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1047.094 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1043.672 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1047.094 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1043.672 ; gain = 26.207
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1047.094 ; gain = 31.988
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xa7a100tcsg324-1I
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1043.672 ; gain = 26.207
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1047.094 ; gain = 31.988
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1043.672 ; gain = 26.207
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1047.094 ; gain = 31.988
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'Y_reg' in module 'FSM_Vending_Unit'
 ---------------------------------------------------------------------------------------------------
@@ -97,7 +97,7 @@ INFO: [Synth 8-802] inferred FSM for state register 'Y_reg' in module 'FSM_Vendi
 INFO: [Synth 8-3354] encoded FSM with state register 'Y_reg' using encoding 'one-hot' in module 'FSM_Vending_Unit'
 WARNING: [Synth 8-327] inferring latch for variable 'sseg_reg' [C:/Users/Ronak/Final_Project/Final_Project.srcs/sources_1/new/Disp_Unit.v:59]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1043.672 ; gain = 26.207
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1047.094 ; gain = 31.988
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -107,12 +107,13 @@ Detailed RTL Component Info :
 	   2 Input   32 Bit       Adders := 1     
 +---Registers : 
 	               32 Bit    Registers := 1     
-	                4 Bit    Registers := 2     
+	                4 Bit    Registers := 4     
 +---Muxes : 
 	   2 Input   32 Bit        Muxes := 1     
 	   7 Input    7 Bit        Muxes := 1     
-	   2 Input    7 Bit        Muxes := 12    
-	   4 Input    7 Bit        Muxes := 2     
+	   2 Input    7 Bit        Muxes := 10    
+	  11 Input    7 Bit        Muxes := 1     
+	   7 Input    4 Bit        Muxes := 4     
 	   4 Input    4 Bit        Muxes := 2     
 	   2 Input    1 Bit        Muxes := 2     
 	   7 Input    1 Bit        Muxes := 1     
@@ -133,25 +134,25 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1043.672 ; gain = 26.207
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1047.094 ; gain = 31.988
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1043.672 ; gain = 26.207
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1047.094 ; gain = 31.988
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1043.672 ; gain = 26.207
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1047.094 ; gain = 31.988
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1061.727 ; gain = 44.262
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1068.461 ; gain = 53.355
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -169,37 +170,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1068.527 ; gain = 51.062
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1068.461 ; gain = 53.355
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1068.527 ; gain = 51.062
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1068.461 ; gain = 53.355
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1068.527 ; gain = 51.062
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1068.461 ; gain = 53.355
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1068.527 ; gain = 51.062
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1068.461 ; gain = 53.355
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1068.527 ; gain = 51.062
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1068.461 ; gain = 53.355
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1068.527 ; gain = 51.062
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1068.461 ; gain = 53.355
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -218,38 +219,38 @@ Report Cell Usage:
 |1     |BUFG   |     2|
 |2     |CARRY4 |    13|
 |3     |LUT1   |     1|
-|4     |LUT2   |     8|
-|5     |LUT3   |     3|
-|6     |LUT4   |    12|
-|7     |LUT5   |     2|
-|8     |LUT6   |     9|
-|9     |FDRE   |    58|
+|4     |LUT2   |     7|
+|5     |LUT3   |     2|
+|6     |LUT4   |    10|
+|7     |LUT5   |     5|
+|8     |LUT6   |    19|
+|9     |FDRE   |    62|
 |10    |FDSE   |     1|
-|11    |LD     |     3|
+|11    |LD     |     7|
 |12    |IBUF   |     6|
 |13    |OBUF   |    15|
 +------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1068.527 ; gain = 51.062
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1068.461 ; gain = 53.355
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:21 . Memory (MB): peak = 1068.527 ; gain = 24.855
-Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1068.527 ; gain = 51.062
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 1068.461 ; gain = 21.367
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1068.461 ; gain = 53.355
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1080.621 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1078.879 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 20 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1086.172 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1078.879 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 3 instances were transformed.
-  LD => LDCE: 3 instances
+  A total of 7 instances were transformed.
+  LD => LDCE: 7 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
 26 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1086.172 ; gain = 68.707
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1078.879 ; gain = 63.773
 INFO: [Common 17-1381] The checkpoint 'C:/Users/Ronak/Final_Project/Final_Project.runs/synth_1/Vending_Machine.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file Vending_Machine_utilization_synth.rpt -pb Vending_Machine_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon Apr 12 19:58:47 2021...
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 12 21:14:41 2021...
