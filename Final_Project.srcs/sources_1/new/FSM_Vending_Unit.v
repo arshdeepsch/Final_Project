@@ -25,7 +25,7 @@ C: if ({S_A} == 1'b1) Y <= D;
 D: if ({S_A,C_A,C_1,C_0} == 4'b0000) Y <= A;
    else begin Y <= D; hex3 = 4'h1; hex2 = 4'h6; hex1 = 4'hd; hex0 = 4'ha; end
 E: if({S_A,C_A,C_1,C_0} == 4'b0000) Y<= A;
-   else begin Y <= E; hex3 = 4'hc; hex2 = 4'ha;hex1 = 4'hd; hex0 = 4'he; end
+   else begin Y <= E; hex3 = 4'hc; hex2 = 4'ha;hex1 = 4'hd; hex0 = 4'hf; end
 F: if({S_A,C_A,C_1,C_0} == 4'b0000) Y <= A;
    else begin Y <= F; hex3 = 4'hc; hex2 = 4'ha;hex1 = 4'hd; hex0 = 4'hf; end
 G: if ({S_A,C_A,C_1,C_0} == 4'b0000) Y <= A;
