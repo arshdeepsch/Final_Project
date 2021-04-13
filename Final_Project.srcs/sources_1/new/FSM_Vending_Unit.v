@@ -1,4 +1,4 @@
-`timescale 1ns / 1ps
+`timescale 1s / 1ms
 
 module FSM_Vending_Unit (Clock, Resetn,S_A,C_A,C_1,C_0,S_D,C_D,
 C_E,hex3,hex2,hex1,hex0);
@@ -27,9 +27,9 @@ D: if ({S_A,C_A,C_1,C_0} == 4'b0000) Y <= A;
 E: if({S_A,C_A,C_1,C_0} == 4'b0000) Y<= A;
    else begin Y <= E; hex3 = 4'hc; hex2 = 4'ha;hex1 = 4'hd; hex0 = 4'he; end
 F: if({S_A,C_A,C_1,C_0} == 4'b0000) Y <= A;
-   else begin Y <= F; hex3 = 4'hc; hex2 = 4'ha;hex1 = 4'hd; hex0 = 4'he; end
+   else begin Y <= F; hex3 = 4'hc; hex2 = 4'ha;hex1 = 4'hd; hex0 = 4'hf; end
 G: if ({S_A,C_A,C_1,C_0} == 4'b0000) Y <= A;
-   else begin Y <= G; hex3 = 4'h0; hex2 = 4'h0;hex1 = 4'h0; hex0 = 4'h0; end
+   else begin Y <= G; hex3 = 4'he; hex2 = 4'hb;hex1 = 4'hc; hex0 = 4'h9; end
 default: Y <= 3'b000;
 endcase
 
