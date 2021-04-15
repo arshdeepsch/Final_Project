@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xa7a100tcsg324-1I" LaunchTime="1618352088">
+<GenRun Id="synth_1" LaunchPart="xa7a100tcsg324-1I" LaunchTime="1618500215">
   <File Type="PA-TCL" Name="Vending_Machine.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="Vending_Machine_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="Vending_Machine_reports.tcl"/>
   <File Type="RDS-RDS" Name="Vending_Machine.vds"/>
   <File Type="RDS-UTIL" Name="Vending_Machine_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="Vending_Machine_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="Vending_Machine.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Vending_Machine_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="Vending_Machine_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/Cntr_Unit.v">

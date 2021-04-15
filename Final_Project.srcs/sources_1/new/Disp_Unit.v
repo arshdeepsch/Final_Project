@@ -1,9 +1,9 @@
 module Disp_Unit
 (
 input wire clk, reset ,
-input wire [3:0] hex3 , hex2 , hex1 , hex0 , // hex digits
+input wire [3:0] hex7 , hex6 , hex5 , hex4,hex3 , hex2 , hex1 , hex0 , // hex digits
 input wire [3:0] dp_in , // 4 decimal points
-output reg [3:0] an , // enable 1-out-of-4 asserted low
+output reg [7:0] an , // enable 1-out-of-4 asserted low
 output reg [7:0] sseg // led segments
 );
 // constant delaration
@@ -26,29 +26,53 @@ assign q_next = q_reg + 1;
 // 2 MSBs of counter to control 4-to-1 multiplexing
 // and to generate active-low enable signal
 always @*
-case (q_reg [N-1:N-2])
-2'b00:
+case (q_reg [N-1:N-3])
+3'b000:
 begin
-an = 4'b1110;
+an = 8'b11111110;
 hex_in = hex0;
 dp = dp_in[0];
 end
-2'b01:
+3'b001:
 begin
-an = 4'b1101;
+an = 8'b11111101;
 hex_in = hex1;
 dp = dp_in[1];
 end
-2'b10:
+3'b010:
 begin
-an = 4'b1011;
+an = 8'b11111011;
 hex_in = hex2;
 dp = dp_in[2];
 end
-default:
+3'b011:
 begin
-an = 4'b0111;
+an = 8'b11110111;
 hex_in = hex3;
+dp = dp_in[3];
+end
+3'b100:
+begin
+an = 8'b11101111;
+hex_in = hex4;
+dp = dp_in[0];
+end
+3'b101:
+begin
+an = 8'b11011111;
+hex_in = hex5;
+dp = dp_in[1];
+end
+3'b110:
+begin
+an = 8'b10111111;
+hex_in = hex6;
+dp = dp_in[2];
+end
+3'b111:
+begin
+an = 8'b01111111;
+hex_in = hex7;
 dp = dp_in[3];
 end
 endcase
