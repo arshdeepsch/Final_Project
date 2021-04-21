@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-| Date         : Tue Apr 13 18:16:20 2021
+| Date         : Thu Apr 15 12:01:35 2021
 | Host         : DESKTOP-0332GNA running 64-bit major release  (build 9200)
 | Command      : report_timing_summary -max_paths 10 -file Vending_Machine_timing_summary_routed.rpt -pb Vending_Machine_timing_summary_routed.pb -rpx Vending_Machine_timing_summary_routed.rpx -warn_on_violation
 | Design       : Vending_Machine
@@ -39,12 +39,12 @@ check_timing report
 
 Table of Contents
 -----------------
-1. checking no_clock (594)
+1. checking no_clock (658)
 2. checking constant_clock (0)
 3. checking pulse_width_clock (0)
-4. checking unconstrained_internal_endpoints (125)
+4. checking unconstrained_internal_endpoints (131)
 5. checking no_input_delay (5)
-6. checking no_output_delay (15)
+6. checking no_output_delay (19)
 7. checking multiple_clock (0)
 8. checking generated_clocks (0)
 9. checking loops (0)
@@ -52,73 +52,73 @@ Table of Contents
 11. checking partial_output_delay (0)
 12. checking latch_loops (0)
 
-1. checking no_clock (594)
+1. checking no_clock (658)
 --------------------------
  There are 50 register/latch pins with no clock driven by root clock pin: Clock (HIGH)
 
- There are 17 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[0]/Q (HIGH)
+ There are 19 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[0]/Q (HIGH)
 
- There are 17 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[10]/Q (HIGH)
+ There are 19 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[10]/Q (HIGH)
 
- There are 17 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[11]/Q (HIGH)
+ There are 19 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[11]/Q (HIGH)
 
- There are 17 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[12]/Q (HIGH)
+ There are 19 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[12]/Q (HIGH)
 
- There are 17 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[13]/Q (HIGH)
+ There are 19 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[13]/Q (HIGH)
 
- There are 17 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[14]/Q (HIGH)
+ There are 19 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[14]/Q (HIGH)
 
- There are 17 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[15]/Q (HIGH)
+ There are 19 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[15]/Q (HIGH)
 
- There are 17 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[16]/Q (HIGH)
+ There are 19 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[16]/Q (HIGH)
 
- There are 17 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[17]/Q (HIGH)
+ There are 19 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[17]/Q (HIGH)
 
- There are 17 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[18]/Q (HIGH)
+ There are 19 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[18]/Q (HIGH)
 
- There are 17 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[19]/Q (HIGH)
+ There are 19 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[19]/Q (HIGH)
 
- There are 17 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[1]/Q (HIGH)
+ There are 19 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[1]/Q (HIGH)
 
- There are 17 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[20]/Q (HIGH)
+ There are 19 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[20]/Q (HIGH)
 
- There are 17 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[21]/Q (HIGH)
+ There are 19 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[21]/Q (HIGH)
 
- There are 17 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[22]/Q (HIGH)
+ There are 19 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[22]/Q (HIGH)
 
- There are 17 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[23]/Q (HIGH)
+ There are 19 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[23]/Q (HIGH)
 
- There are 17 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[24]/Q (HIGH)
+ There are 19 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[24]/Q (HIGH)
 
- There are 17 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[25]/Q (HIGH)
+ There are 19 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[25]/Q (HIGH)
 
- There are 17 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[26]/Q (HIGH)
+ There are 19 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[26]/Q (HIGH)
 
- There are 17 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[27]/Q (HIGH)
+ There are 19 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[27]/Q (HIGH)
 
- There are 17 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[28]/Q (HIGH)
+ There are 19 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[28]/Q (HIGH)
 
- There are 17 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[29]/Q (HIGH)
+ There are 19 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[29]/Q (HIGH)
 
- There are 17 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[2]/Q (HIGH)
+ There are 19 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[2]/Q (HIGH)
 
- There are 17 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[30]/Q (HIGH)
+ There are 19 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[30]/Q (HIGH)
 
- There are 17 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[31]/Q (HIGH)
+ There are 19 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[31]/Q (HIGH)
 
- There are 17 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[3]/Q (HIGH)
+ There are 19 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[3]/Q (HIGH)
 
- There are 17 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[4]/Q (HIGH)
+ There are 19 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[4]/Q (HIGH)
 
- There are 17 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[5]/Q (HIGH)
+ There are 19 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[5]/Q (HIGH)
 
- There are 17 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[6]/Q (HIGH)
+ There are 19 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[6]/Q (HIGH)
 
- There are 17 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[7]/Q (HIGH)
+ There are 19 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[7]/Q (HIGH)
 
- There are 17 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[8]/Q (HIGH)
+ There are 19 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[8]/Q (HIGH)
 
- There are 17 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[9]/Q (HIGH)
+ There are 19 register/latch pins with no clock driven by root clock pin: C1/r_reg_reg[9]/Q (HIGH)
 
 
 2. checking constant_clock (0)
@@ -131,9 +131,9 @@ Table of Contents
  There are 0 register/latch pins which need pulse_width check
 
 
-4. checking unconstrained_internal_endpoints (125)
+4. checking unconstrained_internal_endpoints (131)
 --------------------------------------------------
- There are 125 pins that are not constrained for maximum delay. (HIGH)
+ There are 131 pins that are not constrained for maximum delay. (HIGH)
 
  There are 0 pins that are not constrained for maximum delay due to constant clock.
 
@@ -145,9 +145,9 @@ Table of Contents
  There are 0 input ports with no input delay but user has a false path constraint.
 
 
-6. checking no_output_delay (15)
+6. checking no_output_delay (19)
 --------------------------------
- There are 15 ports with no output delay specified. (HIGH)
+ There are 19 ports with no output delay specified. (HIGH)
 
  There are 0 ports with no output delay but user has a false path constraint
 
